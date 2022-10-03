@@ -883,9 +883,6 @@ svg {
   width: 100%;
 }
 
-.form-list .list-item {
-}
-
 .modal .form-fild {
   position: relative;
   display: flex;
@@ -961,7 +958,7 @@ svg {
 
 .checkbox-hidden {
   position: absolute;
-  width: 1px;
+  /* width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
@@ -970,7 +967,10 @@ svg {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: hidden; */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .form-fild-policy .icon {
